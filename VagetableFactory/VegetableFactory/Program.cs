@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace VagetableFactory
+namespace VegetableFactory
 {
+    
+
     static class Program
     {
         /// <summary>
@@ -16,7 +18,11 @@ namespace VagetableFactory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            FrmUserLogin formLogin = new FrmUserLogin();
+            formLogin.ShowDialog();
+
+            Application.Run(new FrmMain());
         }
     }
 }

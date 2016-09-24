@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VagetableFactory.Properties
+namespace VegetableFactory.Properties
 {
 
 

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace VagetableFactory
+namespace VegetableFactory
 {
-    public partial class Form1 : Form
+    public partial class FrmHistoryData : Form
     {
-        public Form1()
+        public FrmHistoryData()
         {
             InitializeComponent();
         }
